@@ -25,9 +25,9 @@ sub.addEventListener('submit', (data) => {
             localStorage.setItem("jwt", user.access)
             console.log(localStorage);
             document.body.style.backgroundColor = 'white'
-
+            console.log('GitHub')
             setTimeout(() => {
-                location.href = 'http://Thezhenok.github.io/igor/two'
+                location.href = 'http://Thezhenok.github.io/igor/two/'
             }, 1000);
         }
     };
