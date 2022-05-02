@@ -27,7 +27,7 @@ sub.addEventListener('submit', (data) => {
             document.body.style.backgroundColor = 'white'
 
             setTimeout(() => {
-                location.href = 'http://localhost:5500/two/'
+                location.href = 'http://Thezhenok.github.io/igor/two'
             }, 1000);
         }
     };
